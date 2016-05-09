@@ -198,12 +198,12 @@ class HTMLTemplateInvoice extends HTMLTemplateInvoiceCore {
 
         $inf_adicionais = '';
         if ($dados['tipo'] == 'pf') {
-            $inf_adicionais = '<br>CPF: '.$dados['cpf_cnpj'].'<br>RG: '.$dados['rg_ie'];
+            $inf_adicionais = '<br><br>CPF: '.$dados['cpf_cnpj'].'<br>RG: '.$dados['rg_ie'];
         }else {
             if ($dados['tipo'] == 'pj') {
-                $inf_adicionais = '<br>CNPJ: '.$dados['cpf_cnpj'].'<br>IE: '.$dados['rg_ie'];
+                $inf_adicionais = '<br><br>CNPJ: '.$dados['cpf_cnpj'].'<br>IE: '.$dados['rg_ie'];
             }else {
-                $inf_adicionais = '<br>CPF/CNPJ: Não informado  <br>RG/IE: Não informado';
+                $inf_adicionais = '<br><br>CPF/CNPJ: Não informado  <br>RG/IE: Não informado';
             }
         }
 
