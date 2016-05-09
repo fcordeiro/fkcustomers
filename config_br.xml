@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>fkcustomers</name>
+	<displayName><![CDATA[FKcustomers]]></displayName>
+	<version><![CDATA[160.7.6]]></version>
+	<description><![CDATA[Inclui novos campos e automatiza o preenchimento do cadastro de clientes.]]></description>
+	<author><![CDATA[FokusFirst]]></author>
+	<tab><![CDATA[Others]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
